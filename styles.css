@@ -1,0 +1,11 @@
+a {
+    color:rgb(223, 109, 43);
+}
+h1 {
+    color:rgb(68, 4, 4);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+img {
+    border: 20px solid rgb(140, 204, 204);
+}
