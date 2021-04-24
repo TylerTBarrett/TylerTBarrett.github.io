@@ -10,7 +10,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 550px 550px 550px;
+    grid-template-rows: 550px 550px 550px 550px;
     justify-items: center;
     margin: 50px;
 }
