@@ -90,10 +90,17 @@ img:hover {
   flex-shrink: 1;
   flex-grow: 1;
   border-radius: 10px;
+
+  transition: transform 1s, opacity 1s;
 }
 section .assignment-details {
   text-align: left;
   margin: 0px;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(5rem);
 }
 
 a {
