@@ -5,7 +5,6 @@
 .sections {
   width: 100%;
   height: calc(100vh - 70px);
-  /* background-color: #f5b9e6; */
   background-color: rgb(123, 189, 247);
   /* background-color: rgb(104, 25, 25); */
   position: relative;
