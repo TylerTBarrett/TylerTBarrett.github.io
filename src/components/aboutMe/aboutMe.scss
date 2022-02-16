@@ -1,0 +1,117 @@
+@import "./../../colors.scss";
+
+.aboutMeWrapper {
+  background-color: $light-blue;
+
+  position: relative;
+
+  .animation {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .outerWrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background-color: rgba(255, 255, 255, 0.418);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .innerWrapper {
+      width: 90vw;
+      height: calc(90vh - 70px);
+      min-height: fit-content;
+
+      background-color: $base-white;
+      border-radius: 15px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      .headerWrapper {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .logo {
+          height: 50px;
+          width: 50px;
+          margin-right: 30px;
+        }
+
+        .aboutMeHeader {
+          width: fit-content;
+          height: fit-content;
+
+          .header {
+            font-size: 50px;
+            font-weight: 400;
+            width: fit-content;
+            height: fit-content;
+          }
+
+          .description {
+            font-size: 24px;
+            width: fit-content;
+            max-width: 60vw;
+            height: fit-content;
+          }
+        }
+      }
+      .cardContainer {
+        width: inherit;
+        max-width: 100vw;
+        overflow: hidden;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .card {
+          flex: 1;
+          padding: 15px;
+          margin: 15px;
+          border-radius: 5px;
+          box-shadow: 5px 5px 5px $dark-grey;
+
+          width: fit-content;
+          height: auto;
+          background-color: $lighter-blue;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+
+          * {
+            width: fit-content;
+            height: fit-content;
+          }
+
+          .header {
+            font-size: 30px;
+          }
+
+          ul {
+            list-style-type: circle;
+
+            li {
+              color: black;
+              margin-left: 20px;
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

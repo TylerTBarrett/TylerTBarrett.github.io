@@ -1,0 +1,113 @@
+@import "../../colors.scss";
+
+.wrapper {
+  position: relative;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.intro {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  // background-color: $base-yellow;
+  // background-color: $light-blue;
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  justify-content: space-around;
+  align-items: center;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgb(255, 255, 255) 0%,
+    rgba(172, 172, 59, 0) 100%
+  );
+
+  .hello {
+    font-size: 50px;
+    padding: 50px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    width: fit-content;
+    max-width: 90vw;
+    background-color: white;
+    border-radius: 25%;
+    // border-color: rgb(231, 235, 32);
+    // border-style: solid;
+
+    * {
+      width: inherit;
+      height: inherit;
+    }
+
+    .initial {
+      height: 17vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      .line1 {
+        font-size: 25px;
+      }
+
+      .line2 {
+        font-size: 25px;
+
+        span {
+          font-size: inherit;
+          color: crimson;
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+
+      .clickable {
+        box-shadow: 5px 5px 5px $base-black;
+        border-radius: 10px;
+        border-color: $base-black;
+        border-width: 2px;
+        border-style: solid;
+        padding: 10px;
+        margin: 10px;
+        width: 150px;
+        min-width: fit-content;
+        height: fit-content;
+        transition: all 1s ease;
+        display: flex;
+        justify-content: space-around;
+
+        background-color: $base-white;
+
+        text-decoration: none;
+        color: $base-black;
+
+        &:hover {
+          color: $base-white;
+          background-color: $base-black;
+        }
+      }
+
+      .aboutme {
+        font-size: 30px;
+      }
+
+      .projects {
+        font-size: 30px;
+      }
+    }
+  }
+}
