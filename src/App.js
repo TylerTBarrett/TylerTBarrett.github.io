@@ -5,7 +5,7 @@ import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import AboutMe from "./components/aboutMe/AboutMe";
 
-import classes from "./app.module.css";
+import "./app.scss";
 import { useState } from "react";
 
 function App() {
@@ -15,11 +15,11 @@ function App() {
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <div className={classes.sections}>
+      <div className="sections">
         <Intro />
         <AboutMe />
         {/* <Portfolio /> */}
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </div>
   );

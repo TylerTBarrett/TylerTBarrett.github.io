@@ -26,11 +26,11 @@ export default function ScrollOptions(props) {
         </a>
       </li> */}
 
-      <li className="sideBarOption">
+      {/* <li className="sideBarOption">
         <a href="#contact" onClick={scrollAction}>
           Contact
         </a>
-      </li>
+      </li> */}
     </React.Fragment>
   );
 }

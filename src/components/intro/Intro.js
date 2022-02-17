@@ -60,13 +60,13 @@ export default function Intro() {
               Projects
             </a> */}
 
-            <a
+            {/* <a
               href="#contact"
               onClick={scrollTo}
               className="projects clickable"
             >
               Contact
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@
 .sections {
   width: 100%;
   height: calc(100vh - 70px);
+  min-height: max-content;
   background-color: rgb(123, 189, 247);
   /* background-color: rgb(104, 25, 25); */
   position: relative;
@@ -16,11 +17,11 @@
   scrollbar-width: none;
 }
 
-.sections * {
-  width: 100vw;
-  height: calc(100vh - 70px);
-  scroll-snap-align: start;
-}
+/* .sections * {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+  } */
 
 ::-webkit-scrollbar {
   display: none;

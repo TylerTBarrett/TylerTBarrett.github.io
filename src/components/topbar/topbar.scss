@@ -11,6 +11,7 @@
   transition: all 1s ease;
 
   .wrapper {
+    height: inherit;
     padding: 10px 30px;
     display: flex;
     align-items: center;
@@ -51,7 +52,7 @@
         }
       }
 
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 768px) {
         .logo {
           display: none;
         }
