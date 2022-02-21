@@ -15,8 +15,8 @@ export default function Topbar(props) {
     <div className={`${"topbar"} ${props.menuOpen && "active"}`} id="topbar">
       <div className={"wrapper"}>
         <div className={"left"}>
-          <a href="#aboutme" className="logo text" onClick={scrollTo}>
-            About Me
+          <a href="#intro" className="logo text" onClick={scrollTo}>
+            TylerTBarrett
           </a>
           <a
             href="assets/Tyler-Barrett-CS-Resume-Updated.pdf"
